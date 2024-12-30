@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+  font-family: poppins, sans-serif;
+  background-color: #c92899;
+  color: rgb(234, 169, 204);
+}
+
+/* Navbar */
+.navbar {
+  background-color: #d1017a !important; /* Ganti dengan warna yang diinginkan */
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  margin: 0 10px;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffd735; /* Warna kuning saat hover */
+}
+
+.navbar-text {
+  color: white;
+}
+
+.card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+.card-img-top {
+  width: 100%;
+  height: 500px; /* Tinggi gambar diatur agar seragam */
+  object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+  border-radius: 10px 10px 0 0; /* Membuat sudut gambar mengikuti desain card */
+}
+
+/* Heading Produk Kami */
+h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 2.5rem; /* Ukuran font lebih besar */
+  font-weight: bold; /* Teks tebal */
+  color: #c92899; /* Warna merah untuk kesan elegan */
+  letter-spacing: 1.5px; /* Jarak antar huruf */
+  margin-bottom: 30px; /* Jarak bawah heading */
+  position: relative; /* Untuk dekorasi tambahan */
+}
+
+.btn-primary {
+  background-color: #c92899; /* Warna latar belakang tombol */
+  border-color: #c92899; /* Warna border tombol */
+  color: white; /* Warna teks */
+  width: 100%;
+}
+
+/* Mengubah warna tombol saat di-hover */
+.btn-primary:hover {
+  background-color: #b52d8c; /* Warna latar belakang tombol saat hover */
+  border-color: #b52d8c; /* Warna border tombol saat hover */
+}

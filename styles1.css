@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #c92899;
+  background: url("./asset/fix.jpg") no-repeat center center/cover; /* Gambar background toko */
+}
+
+/* Mengubah warna latar belakang navbar */
+.navbar {
+  background-color: #d1017a !important; /* Ganti dengan warna yang diinginkan */
+}
+
+/* Warna teks navbar */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white; /* Ganti dengan warna yang diinginkan */
+}
+
+/* Warna teks link navbar */
+.navbar-nav .nav-link {
+  color: white; /* Ganti dengan warna teks yang diinginkan */
+  margin: 0 10px;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+/* Efek hover pada link navbar */
+.navbar-nav .nav-link:hover {
+  color: #ffd735; /* Ganti dengan warna yang diinginkan */
+}
+
+/* Warna teks lainnya (seperti navbar-text) */
+.navbar-text {
+  color: white; /* Ganti dengan warna yang diinginkan */
+}
+
+h2 {
+  text-align: center;
+  color: #c92899;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Mengubah warna tombol .btn-primary */
+.btn-primary {
+  background-color: #c92899; /* Warna latar belakang tombol */
+  border-color: #c92899; /* Warna border tombol */
+  color: white; /* Warna teks */
+  width: 100%;
+}
+
+/* Mengubah warna tombol saat di-hover */
+.btn-primary:hover {
+  background-color: #b52d8c; /* Warna latar belakang tombol saat hover */
+  border-color: #b52d8c; /* Warna border tombol saat hover */
+}
+
+.alert {
+  text-align: center;
+  margin-top: 10px;
+}
