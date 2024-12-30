@@ -1,7 +1,7 @@
 /* General Styles */
 body {
   font-family: poppins, sans-serif;
-  background-color: #c92899;
+  background: url("./asset/fix.jpg") no-repeat center center/cover; /* Gambar background toko */
   color: rgb(234, 169, 204);
 }
 
